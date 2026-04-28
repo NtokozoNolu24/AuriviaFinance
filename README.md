@@ -28,24 +28,24 @@ Material Design Components
 
 Project Structure
 com.example.open_sourcepart2
- ┣ database/
- ┃ ┣ entities/
- ┃ ┃ ┣ User.kt
- ┃ ┃ ┣ Category.kt
- ┃ ┃ ┗ Expense.kt
- ┃ ┣ dao/
- ┃ ┃ ┣ UserDao.kt
- ┃ ┃ ┣ CategoryDao.kt
- ┃ ┃ ┗ ExpenseDao.kt
- ┃ ┣ repository/
- ┃ ┃ ┗ UserRepository.kt
- ┃ ┣ AppDatabase.kt
- ┃ ┗ DatabaseProvider.kt
- ┣ ui/
- ┃ ┣ activities/
- ┃ ┣ fragments/
- ┃ ┗ adapters/
- ┗ MainActivity.kt
+ database/
+  - entities/
+    -User.kt
+     - Category.kt
+       - Expense.kt
+ dao/
+    - UserDao.kt
+       - CategoryDao.kt
+         -ExpenseDao.kt
+ repository/
+    -UserRepository.kt
+AppDatabase.kt
+    -DatabaseProvider.kt
+ ui/
+    - activities/
+      - fragments/
+         - adapters/
+ MainActivity.kt
 
 Database Overview 
 The app uses Room Database (Finance Database) for structured and efficient data handling.
